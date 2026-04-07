@@ -1,4 +1,4 @@
-# guide_platform_adaptive
+# platform_adaptive_plus
 
 A Flutter library providing adaptive platform utilities for iOS and Android.
 
@@ -12,9 +12,9 @@ In your app's `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  platform_adaptive:
+  platform_adaptive_plus:
   git:
-    url: https://github.com/guide-inc-org/guide-platform_adaptive.git
+    url: https://github.com/guide-inc-org/guide-platform_adaptive_plus.git
     ref: v1.0
 ```
 
@@ -29,7 +29,7 @@ flutter pub get
 Wrap your `Scaffold` (or any widget tree) with `IosStaleInsetCorrector`. Place it as high as possible so all screens are corrected at once.
 
 ```dart
-import 'package:guide_platform_adaptive/ios_stale_inset_corrector.dart';
+import 'package:platform_adaptive_plus/ios_stale_inset_corrector.dart';
 
 IosStaleInsetCorrector(
   version: iosVersion, // e.g. '26.0.1' — nullable, pass null on non-iOS

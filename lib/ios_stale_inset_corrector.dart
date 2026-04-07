@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:platform_adaptive/utils/utils.dart';
+import 'package:platform_adaptive_plus/utils/utils.dart';
 
 /// iOS 26 workaround for stale `viewPadding.top` after orientation changes
 /// (flutter/flutter#180206). Placed above every [Scaffold] so all screens are

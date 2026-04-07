@@ -1,4 +1,4 @@
-name: platform_adaptive
+name: platform_adaptive_plus
 description: A Flutter library providing adaptive platform utilities.
 publish_to: 'none'
 
@@ -14,7 +14,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
